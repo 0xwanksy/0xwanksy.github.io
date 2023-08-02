@@ -1,7 +1,7 @@
 {
     "bundle_id": "chat.nova.brooklyn",
-    "name": "Brooklyn (6s+)",
-    "version": "0.0.1-1339+debug",
+    "name": "Brooklyn (6)",
+    "version": "0.0.1+debug",
     "tagline": "chat thing",
     "homepage": "https://shuga.co/",
     "developer": {
@@ -13,7 +13,7 @@
         "email": "anon.edgelord@gmail.com"
     },
     "section": "Messaging",
-    "works_min": "13",
-    "works_max": "16",
+    "works_min": "7",
+    "works_max": "12",
     "featured": "true"
 }
