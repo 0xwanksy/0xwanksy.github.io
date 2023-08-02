@@ -1,0 +1,12 @@
+Origin: Rio Gateway
+Label: Rio Gateway
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Rio is a gateway that allows your iPhone to send iMessages automatically
+
+SHA256:
+ 58db68155f2406c2b0b655cc0c66766b3dc44b30c6414652935396845337bf1c 544 Packages.bz2
+ 3a84107c9866737ba8785529a2ad6282ff1b556e8f4027f548d83926935bd67f 532 Packages.xz
