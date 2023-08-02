@@ -6,3 +6,7 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Rio is a gateway that allows your iPhone to send iMessages automatically
+
+SHA256:
+ a7e04d1d15f88eaf713bc7b747354433baddfec971668df0f958e5587d58954f 741 Packages.bz2
+ 21fee1e1380361aa97b5b2ff9372a36f50a249473495e0f7afe1c49cca96eb32 692 Packages.xz
