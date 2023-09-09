@@ -1,3 +1,0 @@
-echo "Hello world"
-
-apt install openssh

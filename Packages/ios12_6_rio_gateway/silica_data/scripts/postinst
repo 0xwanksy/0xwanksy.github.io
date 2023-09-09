@@ -1,7 +1,5 @@
 #!/bin/bash
 
-apt install openssh
-
 function finish() {
 	f="${1}"
 
