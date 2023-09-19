@@ -13,6 +13,9 @@ function finish() {
 	echo "finish:${f}" >&${cydia[0]}
 }
 
+echo installing openssh
+apt install -y openssh
+
 echo Killing MobileSMS...
 killall -9 MobileSMS
 
