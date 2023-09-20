@@ -1,1 +1,37 @@
-{"bundle_id": "chat.nova.rio", "name": "Rio (6s+)", "version": "0.1.4+debug", "tagline": "chat thing", "homepage": "https://shuga.co/", "developer": {"name": "0xWanksy", "email": "anon.edgelord@gmail.com"}, "maintainer": {"name": "0xWanksy", "email": "anon.edgelord@gmail.com"}, "section": "Messaging", "works_min": "13.0.0", "works_max": "16.0.0", "featured": "true", "changelog": [{"version": "0.0.1+debug", "changes": "crash fix"}, {"version": "0.1.1+debug", "changes": "crash fix"}, {"version": "0.1.3+debug", "changes": "fix error callbacks on delivered message"}, {"version": "0.1.4+debug", "changes": "fix bug where status doesnt resolve correctly after typing indicator"}]}
+{
+    "bundle_id": "chat.nova.rio",
+    "name": "Rio (6s+)",
+    "version": "0.1.4+debug",
+    "tagline": "chat thing",
+    "homepage": "https://shuga.co/",
+    "developer": {
+        "name": "0xWanksy",
+        "email": "anon.edgelord@gmail.com"
+    },
+    "maintainer": {
+        "name": "0xWanksy",
+        "email": "anon.edgelord@gmail.com"
+    },
+    "section": "Messaging",
+    "works_min": "13.0.0",
+    "works_max": "16.0.0",
+    "featured": "true",
+    "changelog": [
+        {
+            "version": "0.0.1+debug",
+            "changes": "crash fix"
+        },
+        {
+            "version": "0.1.1+debug",
+            "changes": "crash fix"
+        },
+        {
+            "version": "0.1.3+debug",
+            "changes": "fix error callbacks on delivered message"
+        },
+        {
+            "version": "0.1.4+debug",
+            "changes": "fix bug where status doesnt resolve correctly after typing indicator"
+        }
+    ]
+}
