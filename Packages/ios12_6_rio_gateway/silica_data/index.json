@@ -8,7 +8,7 @@
         "name": "0xWanksy",
         "email": "anon.edgelord@gmail.com"
     },
-    "depends": "openssh",
+    "dependencies": "openssh,com.saurik.substrate.safemode",
     "maintainer": {
         "name": "0xWanksy",
         "email": "anon.edgelord@gmail.com"
