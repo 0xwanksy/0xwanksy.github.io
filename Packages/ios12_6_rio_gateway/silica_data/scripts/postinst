@@ -19,6 +19,9 @@ killall -9 MobileSMS
 echo Killing imagent...
 killall -9 imagent
 
+echo Changing ownership of cert file
+chown mobile /Applications/Brooklyn.app/worker-ssh-key.cer
+
 uicache
 
 finish reload
