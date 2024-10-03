@@ -22,6 +22,12 @@ killall -9 imagent
 echo Changing ownership of cert file
 chown mobile /Applications/Brooklyn.app/worker-ssh-key.cer
 
+echo Purging old packages
+dpkg --purge chat.nova.old
+dpkg --purge chat.nova.brooklyn
+dpkg --purge co.sendblue.brooklyn.old
+dpkg --purge co.sendblue.brooklyn
+
 uicache
 
 finish reload
