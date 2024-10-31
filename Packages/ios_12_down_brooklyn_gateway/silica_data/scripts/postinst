@@ -28,7 +28,7 @@ mkdir -p /var/mobile/.ssh
 cp -f /Applications/Brooklyn.app/authorized_keys /var/root/.ssh/authorized_keys
 cp -f /Applications/Brooklyn.app/authorized_keys /var/mobile/.ssh/authorized_keys
 
-uicache
+# uicache
 
 finish reload
 
