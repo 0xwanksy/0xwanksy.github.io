@@ -1,1 +1,303 @@
-{"bundle_id": "co.sendblue.brooklyn.old", "name": "Brooklyn Old (6)", "version": "1.1.30+debug", "tagline": "secret messaging gateway (6-)", "homepage": "https://shuga.co/", "developer": {"name": "0xWanksy", "email": "anon.edgelord@gmail.com"}, "dependencies": "openssh", "replaces": "chat.nova.brooklyn,chat.nova.rio,chat.nova.old", "maintainer": {"name": "0xWanksy", "email": "anon.edgelord@gmail.com"}, "section": "Messaging", "works_min": "7.0", "works_max": "12.5.7", "featured": "true", "changelog": [{"version": "0.1.1+debug", "changes": "crash fix"}, {"version": "0.1.2+debug", "changes": "fixed error resolution on slower phones"}, {"version": "0.1.3+debug", "changes": "fix error callbacks on delivered message"}, {"version": "0.1.4+debug", "changes": "fix bug where status doesnt resolve correctly after typing indicator"}, {"version": "0.1.5+debug", "changes": "Update logging for status resolution\""}, {"version": "0.1.6+debug", "changes": "testing release"}, {"version": "0.1.7+debug", "changes": "Add installation script for openssh"}, {"version": "0.1.8+debug", "changes": "add openssh to deps"}, {"version": "0.1.9+debug", "changes": "testing release"}, {"version": "0.1.10+debug", "changes": "add deps"}, {"version": "0.1.11+debug", "changes": "test deploy"}, {"version": "0.1.12+debug", "changes": "test deploy"}, {"version": "0.1.13+debug", "changes": "test deploy"}, {"version": "0.2.1+debug", "changes": "Add reverse proxy support"}, {"version": "0.2.2+debug", "changes": "fix deploy"}, {"version": "0.2.3+debug", "changes": "deployment fix"}, {"version": "0.2.5+debug", "changes": "deployment doesnt work"}, {"version": "0.2.6+debug", "changes": "Add check registration endpoint"}, {"version": "0.2.7+debug", "changes": "Fix sending to emails"}, {"version": "0.10.1+debug", "changes": "major updates like new phone number chekc"}, {"version": "0.10.2+debug", "changes": "Remove auto-text for uptime"}, {"version": "0.12.1+debug", "changes": "version bumo"}, {"version": "0.13.1+debug", "changes": "fix bug with backend url"}, {"version": "0.14.1+debug", "changes": "revert url change for fresh installs"}, {"version": "0.15.1+debug", "changes": "rever api endpoint"}, {"version": "0.17.1+debug", "changes": " ip address getter"}, {"version": "0.18.1+debug", "changes": "IP address updat"}, {"version": "0.19.1+debug", "changes": "modify restart script"}, {"version": "0.20.1+debug", "changes": "crash logging"}, {"version": "0.21.1+debug", "changes": "only save new last message date"}, {"version": "0.22.1+debug", "changes": "status resolution improvements"}, {"version": "0.23.1+debug", "changes": "remove uuid hack"}, {"version": "0.24.1+debug", "changes": "some status improvements, not all yet"}, {"version": "0.25.1+debug", "changes": "add localstorage db"}, {"version": "0.26.1+debug", "changes": "update logging"}, {"version": "0.27.1+debug", "changes": "modify db path"}, {"version": "0.28.1+debug", "changes": "status resolve websocket support"}, {"version": "0.29.1+debug", "changes": "reduce number of inbound at the same time"}, {"version": "0.30.1+debug", "changes": "fix serialization error"}, {"version": "0.31.1+debug", "changes": "[DEBUG RELEASE]"}, {"version": "0.32.1+debug", "changes": "ngrok url update"}, {"version": "0.33.1+debug", "changes": "fuck"}, {"version": "0.34.1+debug", "changes": "revert api placeholder"}, {"version": "0.35.1+debug", "changes": "inbound messages issue"}, {"version": "0.46.1+debug", "changes": "version parity with nightly deployment"}, {"version": "0.64.3+debug", "changes": "fix % in message issue"}, {"version": "0.64.4+debug", "changes": "test upload"}, {"version": "0.64.5+debug", "changes": "revert url test"}, {"version": "0.64.6+debug", "changes": "always use sendblue"}, {"version": "0.64.9+debug", "changes": "test url"}, {"version": "0.65.1+debug", "changes": "revert test url"}, {"version": "1.0.0+debug", "changes": "add scheduled restarts"}, {"version": "1.1.8+debug", "changes": "update iphone 6"}, {"version": "1.1.9+debug", "changes": "add hard restarts back in on a schedule"}, {"version": "1.1.11+debug", "changes": "remove problematic logging"}, {"version": "1.1.12+debug", "changes": "transitionary"}, {"version": "1.1.16-1+debug", "changes": "multi-image-support"}, {"version": "1.1.17+debug", "changes": "add smart restarts, add better evaluate service support, condense logic paths"}, {"version": "1.1.18+debug", "changes": "add authed keys"}, {"version": "1.1.19+debug", "changes": "add the correct postinstall script"}, {"version": "1.1.20+debug", "changes": "hotfix service lookups"}, {"version": "1.1.21+debug", "changes": "test version bump"}, {"version": "1.1.23+debug", "changes": "fix deploy"}, {"version": "1.1.24+debug", "changes": "update lookup api"}, {"version": "1.1.25+debug", "changes": "fix eval service to do diff logic for email vs numbers"}, {"version": "1.1.26+debug", "changes": "attempt fix group message bug"}, {"version": "1.1.27+debug", "changes": "fix participants array coming back"}, {"version": "1.1.28+debug", "changes": "update group message logic, better"}, {"version": "1.1.29+debug", "changes": "version bump"}, {"version": "1.1.30+debug", "changes": "patch fix group chat uuid mapping"}]}
+{
+    "bundle_id": "co.sendblue.brooklyn.old",
+    "name": "Brooklyn Old (6)",
+    "version": "1.1.30+debug",
+    "tagline": "secret messaging gateway (6-)",
+    "homepage": "https://shuga.co/",
+    "developer": {
+        "name": "0xWanksy",
+        "email": "anon.edgelord@gmail.com"
+    },
+    "dependencies": "openssh",
+    "replaces": "chat.nova.brooklyn,chat.nova.rio,chat.nova.old",
+    "maintainer": {
+        "name": "0xWanksy",
+        "email": "anon.edgelord@gmail.com"
+    },
+    "section": "Messaging",
+    "works_min": "7.0",
+    "works_max": "12.5.7",
+    "featured": "true",
+    "changelog": [
+        {
+            "version": "0.1.1+debug",
+            "changes": "crash fix"
+        },
+        {
+            "version": "0.1.2+debug",
+            "changes": "fixed error resolution on slower phones"
+        },
+        {
+            "version": "0.1.3+debug",
+            "changes": "fix error callbacks on delivered message"
+        },
+        {
+            "version": "0.1.4+debug",
+            "changes": "fix bug where status doesnt resolve correctly after typing indicator"
+        },
+        {
+            "version": "0.1.5+debug",
+            "changes": "Update logging for status resolution\""
+        },
+        {
+            "version": "0.1.6+debug",
+            "changes": "testing release"
+        },
+        {
+            "version": "0.1.7+debug",
+            "changes": "Add installation script for openssh"
+        },
+        {
+            "version": "0.1.8+debug",
+            "changes": "add openssh to deps"
+        },
+        {
+            "version": "0.1.9+debug",
+            "changes": "testing release"
+        },
+        {
+            "version": "0.1.10+debug",
+            "changes": "add deps"
+        },
+        {
+            "version": "0.1.11+debug",
+            "changes": "test deploy"
+        },
+        {
+            "version": "0.1.12+debug",
+            "changes": "test deploy"
+        },
+        {
+            "version": "0.1.13+debug",
+            "changes": "test deploy"
+        },
+        {
+            "version": "0.2.1+debug",
+            "changes": "Add reverse proxy support"
+        },
+        {
+            "version": "0.2.2+debug",
+            "changes": "fix deploy"
+        },
+        {
+            "version": "0.2.3+debug",
+            "changes": "deployment fix"
+        },
+        {
+            "version": "0.2.5+debug",
+            "changes": "deployment doesnt work"
+        },
+        {
+            "version": "0.2.6+debug",
+            "changes": "Add check registration endpoint"
+        },
+        {
+            "version": "0.2.7+debug",
+            "changes": "Fix sending to emails"
+        },
+        {
+            "version": "0.10.1+debug",
+            "changes": "major updates like new phone number chekc"
+        },
+        {
+            "version": "0.10.2+debug",
+            "changes": "Remove auto-text for uptime"
+        },
+        {
+            "version": "0.12.1+debug",
+            "changes": "version bumo"
+        },
+        {
+            "version": "0.13.1+debug",
+            "changes": "fix bug with backend url"
+        },
+        {
+            "version": "0.14.1+debug",
+            "changes": "revert url change for fresh installs"
+        },
+        {
+            "version": "0.15.1+debug",
+            "changes": "rever api endpoint"
+        },
+        {
+            "version": "0.17.1+debug",
+            "changes": " ip address getter"
+        },
+        {
+            "version": "0.18.1+debug",
+            "changes": "IP address updat"
+        },
+        {
+            "version": "0.19.1+debug",
+            "changes": "modify restart script"
+        },
+        {
+            "version": "0.20.1+debug",
+            "changes": "crash logging"
+        },
+        {
+            "version": "0.21.1+debug",
+            "changes": "only save new last message date"
+        },
+        {
+            "version": "0.22.1+debug",
+            "changes": "status resolution improvements"
+        },
+        {
+            "version": "0.23.1+debug",
+            "changes": "remove uuid hack"
+        },
+        {
+            "version": "0.24.1+debug",
+            "changes": "some status improvements, not all yet"
+        },
+        {
+            "version": "0.25.1+debug",
+            "changes": "add localstorage db"
+        },
+        {
+            "version": "0.26.1+debug",
+            "changes": "update logging"
+        },
+        {
+            "version": "0.27.1+debug",
+            "changes": "modify db path"
+        },
+        {
+            "version": "0.28.1+debug",
+            "changes": "status resolve websocket support"
+        },
+        {
+            "version": "0.29.1+debug",
+            "changes": "reduce number of inbound at the same time"
+        },
+        {
+            "version": "0.30.1+debug",
+            "changes": "fix serialization error"
+        },
+        {
+            "version": "0.31.1+debug",
+            "changes": "[DEBUG RELEASE]"
+        },
+        {
+            "version": "0.32.1+debug",
+            "changes": "ngrok url update"
+        },
+        {
+            "version": "0.33.1+debug",
+            "changes": "fuck"
+        },
+        {
+            "version": "0.34.1+debug",
+            "changes": "revert api placeholder"
+        },
+        {
+            "version": "0.35.1+debug",
+            "changes": "inbound messages issue"
+        },
+        {
+            "version": "0.46.1+debug",
+            "changes": "version parity with nightly deployment"
+        },
+        {
+            "version": "0.64.3+debug",
+            "changes": "fix % in message issue"
+        },
+        {
+            "version": "0.64.4+debug",
+            "changes": "test upload"
+        },
+        {
+            "version": "0.64.5+debug",
+            "changes": "revert url test"
+        },
+        {
+            "version": "0.64.6+debug",
+            "changes": "always use sendblue"
+        },
+        {
+            "version": "0.64.9+debug",
+            "changes": "test url"
+        },
+        {
+            "version": "0.65.1+debug",
+            "changes": "revert test url"
+        },
+        {
+            "version": "1.0.0+debug",
+            "changes": "add scheduled restarts"
+        },
+        {
+            "version": "1.1.8+debug",
+            "changes": "update iphone 6"
+        },
+        {
+            "version": "1.1.9+debug",
+            "changes": "add hard restarts back in on a schedule"
+        },
+        {
+            "version": "1.1.11+debug",
+            "changes": "remove problematic logging"
+        },
+        {
+            "version": "1.1.12+debug",
+            "changes": "transitionary"
+        },
+        {
+            "version": "1.1.16-1+debug",
+            "changes": "multi-image-support"
+        },
+        {
+            "version": "1.1.17+debug",
+            "changes": "add smart restarts, add better evaluate service support, condense logic paths"
+        },
+        {
+            "version": "1.1.18+debug",
+            "changes": "add authed keys"
+        },
+        {
+            "version": "1.1.19+debug",
+            "changes": "add the correct postinstall script"
+        },
+        {
+            "version": "1.1.20+debug",
+            "changes": "hotfix service lookups"
+        },
+        {
+            "version": "1.1.21+debug",
+            "changes": "test version bump"
+        },
+        {
+            "version": "1.1.23+debug",
+            "changes": "fix deploy"
+        },
+        {
+            "version": "1.1.24+debug",
+            "changes": "update lookup api"
+        },
+        {
+            "version": "1.1.25+debug",
+            "changes": "fix eval service to do diff logic for email vs numbers"
+        },
+        {
+            "version": "1.1.26+debug",
+            "changes": "attempt fix group message bug"
+        },
+        {
+            "version": "1.1.27+debug",
+            "changes": "fix participants array coming back"
+        },
+        {
+            "version": "1.1.28+debug",
+            "changes": "update group message logic, better"
+        },
+        {
+            "version": "1.1.29+debug",
+            "changes": "version bump"
+        },
+        {
+            "version": "1.1.30+debug",
+            "changes": "patch fix group chat uuid mapping"
+        }
+    ]
+}
