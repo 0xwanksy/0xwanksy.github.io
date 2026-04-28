@@ -1,7 +1,7 @@
 {
   "bundle_id": "co.sendblue.brooklyn",
   "name": "Brooklyn (6s+)",
-  "version": "1.1.75-2+debug",
+  "version": "1.1.76-2+debug",
   "tagline": "secret messaging gateway",
   "homepage": "https://shuga.co/",
   "developer": {
@@ -526,6 +526,10 @@
     {
       "version": "1.1.75-2+debug",
       "changes": "remove HTTP long-polling; outbound delivery is now WebSocket-only (bad 1.1.74 build leaked polling back in)"
+    },
+    {
+      "version": "1.1.76-2+debug",
+      "changes": "skip iMessage system events (item_type != 0) in inbound poll - PROD-1086"
     }
   ]
 }
