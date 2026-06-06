@@ -1,7 +1,7 @@
 {
   "bundle_id": "co.sendblue.brooklyn",
   "name": "Brooklyn (6s+)",
-  "version": "1.1.77-2+debug",
+  "version": "1.1.78-5+debug",
   "tagline": "secret messaging gateway",
   "homepage": "https://shuga.co/",
   "developer": {
@@ -534,6 +534,10 @@
     {
       "version": "1.1.77-2+debug",
       "changes": "forward m.item_type to grayrunner (no SQL filter); server-side passive log captures rate before deciding where to filter - PROD-1086"
+    },
+    {
+      "version": "1.1.78-5+debug",
+      "changes": "in-memory ROWID cursor seeded from grayrunner date checkpoint; uuid dedup handles replay (RD-74/RD-102)"
     }
   ]
 }
